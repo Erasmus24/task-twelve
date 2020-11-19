@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #009688;
+  padding: 8px;
+  color: #b2dfdb;
+  position: sticky;
+  top: 0;
+}
+
+.navlink {
+  text-decoration: none;
+  padding: 24px 20px;
+  color: #b2dfdb;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+}
+
+.navlink:hover {
+  background-color: #b2dfdb;
+  color: #009688;
+}
