@@ -24,16 +24,16 @@ class Task5 extends React.Component {
       (parseInt(this.state.a) +
         parseInt(this.state.b) +
         parseInt(this.state.c));
-    var area = Math.round(
+    var area = 
       Math.sqrt(
         s *
           (s - parseInt(this.state.a)) *
           (s - parseInt(this.state.b)) *
           (s - parseInt(this.state.c))
       )
-    );
+    .toFixed(2);
     this.setState({
-      answer: area + " square units (Rounded off to the nearest number)",
+      answer: area + " square units (Rounded off to the nearest 100th)",
     });
     console.log(this.state);
   };
